@@ -5,7 +5,7 @@ const ProductsRoute = require("./Routes/products");
 const app = express();
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://lavanyareddy:<password>@cluster0.zoh8iig.mongodb.net/?retryWrites=true&w=majority" , ()=>
+mongoose.connect("mongodb+srv://lavanyareddy:lavanya@cluster0.zoh8iig.mongodb.net/?retryWrites=true&w=majority" , ()=>
 console.log("connect to DB")
 )
 
